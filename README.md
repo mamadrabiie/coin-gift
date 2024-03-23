@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Mongoose-880000.svg?style=default&logo=Mongoose&logoColor=white" alt="Mongoose">
   <img src="https://img.shields.io/badge/TronAPI-000000.svg?style=default&logo=Tron&logoColor=white" alt="TronAPI">
   <img src="https://img.shields.io/badge/Trust Wallet-000000.svg?style=default&logo=Trust Wallet&logoColor=white" alt="Trust Wallet">
+  <img src="https://img.shields.io/badge/GitLab-CI/CD-FCA121.svg?style=default&logo=GitLab&logoColor=white" alt="GitLab CI/CD">
 </p>
 
 <br>
