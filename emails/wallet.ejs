@@ -1,0 +1,102 @@
+<html>
+<head>
+    <title>Wallet Key</title>
+    <link href='https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css'>
+    <style type="text/css">
+        body {
+            background-color: #f8f9f9;
+        }
+
+        .back {
+            max-width: 600px;
+            background-color: white;
+        }
+
+        .header {
+            font-style: oblique;
+            font-weight: bold;
+            font-size: xx-large;
+            padding: 30px 0px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: rgb(240, 243, 243);
+            padding: 15px;
+        }
+
+        .pay {
+            min-width: 330px;
+            max-width: 400px;
+            background-color: white;
+            /* border: 1px solid rgb(129 195 65); */
+            border-collapse: collapse;
+            padding: 15px;
+        }
+
+        .pay td {
+            background-color: white;
+            /* border: 1px solid #16a2a2; */
+            border-collapse: collapse;
+            padding: 25px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .center {
+            margin: auto;
+            width: 37rem;
+        }
+
+        .logo {
+            width: 285px;
+            height: 96px;
+        }
+
+        .url {
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            margin: 35px 0 15px 0;
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="back flex">
+            <table class="pay" dir="rtl">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            Your Wallet Secret Key
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="url">
+                                <p>
+                                    <%= mnemonic %>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr style="font-size: small; text-align: center;">
+                        <td colspan="2"> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
